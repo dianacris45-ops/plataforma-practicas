@@ -1,0 +1,12 @@
+:root { --verde: #0b5d4b; --verde-claro: #e7f3ef; }
+body { background: #f6f8f7; }
+.barra { background: var(--verde); }
+.hero { background: linear-gradient(120deg, var(--verde), #13866c); color: #fff; border-radius: 1rem; }
+.tarjeta { border: 0; border-radius: .9rem; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+.btn-verde { background: var(--verde); color: #fff; }
+.btn-verde:hover { background: #094a3c; color: #fff; }
+.etiqueta { background: var(--verde-claro); color: var(--verde); font-weight: 600; }
+.form-card { max-width: 720px; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { color: #1d2b27; }
+.hero h1 { color: #fff; }
+a { color: var(--verde); }
